@@ -1,0 +1,4 @@
+name: configured-service-deployment
+runtime: nodejs
+description: This program is about deployed services in helm chart form into kubernetes
+  clusters
