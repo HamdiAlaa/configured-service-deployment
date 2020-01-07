@@ -12,8 +12,8 @@ export const nexusValues = {
     },
     nexusProxy:{
         env:{
-            nexusDockerHost:"localhost:8081",
-            nexusHttpHost:"localhost:8081"
+            nexusDockerHost:"localhost",
+            nexusHttpHost:"localhost"
         }
     }
 }
