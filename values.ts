@@ -1,8 +1,16 @@
 export const jenkinsValues = {
     jenkinsUser:"alaa",
     jenkinsPassword:"Mba5922949822;",
-    disableInitialization:"no"
-
+    disableInitialization:"no",
+    livenessProbe:{
+        enabled:false
+    },
+    readinessProbe:{
+        enabled:false
+    },
+    persistence:{
+        size:"2Gi"
+    }
 }
 export const nexusValues = {
     nexus:{

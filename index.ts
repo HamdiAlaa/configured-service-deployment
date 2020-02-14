@@ -1,7 +1,7 @@
 import * as k8s from "@pulumi/kubernetes";
-import * as kx from "@pulumi/kubernetesx";
 import * as pulumi from "@pulumi/pulumi";
 import * as helm from "@pulumi/kubernetes/helm";
+import * as azure from "@pulumi/azure";
 import * as valueslist from './values';  
 const __ = new pulumi.Config();
 const release_name = __.require('release_name');
@@ -31,7 +31,7 @@ else if(chart_name=='sonatype-nexus') {
 else{
     deployed_service_name="";
 }
-
+// const loadBalancer = 
 
 //Values
 const service  = new helm.v2.Chart(release_name,{
