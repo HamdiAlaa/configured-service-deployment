@@ -9,21 +9,21 @@ export const jenkinsValues = {
         enabled:false
     },
     persistence:{
-        size:"2Gi"
+        size:"8Gi"
     }
 }
 export const nexusValues = {
-    nexus:{
-        service:{
-            type:'LoadBalancer',
-        }
-    },
-    nexusProxy:{
-        env:{
-            nexusDockerHost:"localhost",
-            nexusHttpHost:"localhost"
-        }
-    }
+    // nexus:{
+    //     service:{
+    //         type:'LoadBalancer',
+    //     }
+    // },
+    // nexusProxy:{
+    //     env:{
+    //         nexusDockerHost:"localhost",
+    //         nexusHttpHost:"localhost"
+    //     }
+    // }
 }
 
 export const sonarQube = {
