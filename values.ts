@@ -9,7 +9,7 @@ export const jenkinsValues = {
         enabled:false
     },
     persistence:{
-        size:"8Gi"
+        existingClaim:"pvc-jenkins"
     }
 }
 export const nexusValues = {
